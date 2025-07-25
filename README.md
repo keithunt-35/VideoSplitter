@@ -2,6 +2,11 @@
 
 A Python tool that automatically splits video files into smaller clips of specified duration.
 
+## Inspiration
+- After asking a few people for a script to split videos, I was met with silence and excuses. So, i decided to create my own script. 
+- After a few iterations, I got a working version that eventually helped me.
+- This was made for you and all the people who need video splitters.
+
 ## Features
 
 - 🎬 Split videos into equal-duration clips (default: 60 seconds)
