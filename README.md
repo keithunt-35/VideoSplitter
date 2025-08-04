@@ -11,7 +11,7 @@ A Python tool that automatically splits video files into smaller clips of specif
 
 - 🎬 Split videos into equal-duration clips (default: 60 seconds)
 - 📁 Process entire folders of videos at once
-- 🎯 Supports multiple video formats (.mp4, .mov, .avi, .mkv)
+- � Supports multiple video formats (.mp4, .mov, .avi, .mkv)
 - ✅ Progress tracking with visual feedback
 - 🛡️ Error handling and resource management
 
@@ -19,6 +19,29 @@ A Python tool that automatically splits video files into smaller clips of specif
 
 1. Clone or download this project
 2. Install required dependencies:
+```bash
+pip install moviepy
+```
+
+### Creating a Virtual Environment (Recommended)
+It's good practice to create a virtual environment for Python projects to manage dependencies. Here's how:
+
+1. Create the virtual environment:
+```bash
+python -m venv venv
+```
+
+2. Activate the environment:
+   - On Windows:
+   ```bash
+   .\venv\Scripts\activate
+   ```
+   - On macOS/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. Install dependencies within the virtual environment:
 ```bash
 pip install moviepy
 ```
